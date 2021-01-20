@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+.background {
+    width: 0;
+    height: 95px;
+    border-left: 1349px solid whitesmoke;
+    border-right: 0px solid transparent;
+    border-bottom: 100px solid transparent;
+}
+
+.background_two{
+    margin-top: 287px;
+    width: 0;
+    height: 75px;
+    border-left: 0px solid transparent;
+    border-right: 1349px solid whitesmoke;
+    border-top: 100px solid transparent;
+}
+
+body {
+    background-image: url(../blogpost_joker_images_1200x800-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(10, 19, 86);
+    background-size: 1100px 620px ;
+}
+
+.start {
+    z-index: 1;
+    background-color: whitesmoke;
+}
